@@ -1,0 +1,68 @@
+body {
+    background-image: linear-gradient(45deg, #D4F6FF, #F6FCDF);
+    height: 100vh;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #62825D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para as prioridades */
+.prioridade-alta {
+    color: #FF2929;
+    font-weight: bold;
+}
+
+.prioridade-media {
+    color: #FFE31A;
+}
+
+.prioridade-baixa {
+    color: #EB5B00;
+}
+
+/* Tarefas concluídas */
+.concluida {
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilos para o bloco de histórico (fixo no canto superior direito) */
+.historico-tarefas {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 250px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.historico-tarefas h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.historico-tarefas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.historico-tarefas li {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+}

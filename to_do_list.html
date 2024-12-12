@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="to_do_list.css">
+</head>
+<body>
+<h1>Lista de Tarefas</h1>
+    <main>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCiur4fhrf3oaLu7FDysRudlRIZGAgkiGzlA&s" alt="Imagem de Tarefa">
+    </main>
+    <div>
+        <label for="idAtv">Atividade:</label>
+        <input id="idAtv" name="idAtv" type="text">
+    </div>
+    <div>
+        <label for="prioridadeSelect">Prioridade:</label>
+        <select id="prioridadeSelect">
+            <option value="Alta">Alta</option>
+            <option value="Média">Média</option>
+            <option value="Baixa">Baixa</option>
+        </select>
+    </div>
+    <div>
+        <button id="addTaskButton" class="btn btn-primary">Adicionar</button>
+    </div>
+    <ul id="taskList"></ul>
+
+    <!-- Bloco de Histórico -->
+    <div id="historico" class="historico-tarefas">
+        <h2>Tarefas Removidas</h2>
+        <ul id="removedTasksList"></ul>
+    </div>
+
+    <footer class="nome">Vitória de Freitas</footer>
+    <footer class="link">https://github.com/vitoria0402</footer>
+    <script src="to_do_list.js"></script>
+</body>
+</html>
